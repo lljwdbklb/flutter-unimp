@@ -1,0 +1,160 @@
+PODS:
+  - AMap3DMap (9.7.0):
+    - AMapFoundation (>= 1.8.0)
+  - AMapFoundation (1.8.2)
+  - AMapLocation (2.10.0):
+    - AMapFoundation (>= 1.8.0)
+  - AMapSearch (9.7.0):
+    - AMapFoundation (>= 1.8.0)
+  - Flutter (1.0.0)
+  - flutter_unimp (0.0.3):
+    - Flutter
+    - flutter_unimp/Accelerometer (= 0.0.3)
+    - flutter_unimp/Audio (= 0.0.3)
+    - flutter_unimp/Barcode (= 0.0.3)
+    - flutter_unimp/BlueTooth (= 0.0.3)
+    - "flutter_unimp/Camera&Gallery (= 0.0.3)"
+    - flutter_unimp/Canvas (= 0.0.3)
+    - flutter_unimp/Contacts (= 0.0.3)
+    - flutter_unimp/Core (= 0.0.3)
+    - flutter_unimp/FaceId (= 0.0.3)
+    - flutter_unimp/File (= 0.0.3)
+    - flutter_unimp/Fingerprint (= 0.0.3)
+    - flutter_unimp/Geolocation (= 0.0.3)
+    - flutter_unimp/Geolocation-Gaode (= 0.0.3)
+    - flutter_unimp/IBeacon (= 0.0.3)
+    - flutter_unimp/LivePusher (= 0.0.3)
+    - flutter_unimp/Log (= 0.0.3)
+    - flutter_unimp/Map (= 0.0.3)
+    - flutter_unimp/Map-Gaode (= 0.0.3)
+    - flutter_unimp/Masonry (= 0.0.3)
+    - flutter_unimp/Message (= 0.0.3)
+    - flutter_unimp/NativeJS (= 0.0.3)
+    - flutter_unimp/Orientation (= 0.0.3)
+    - flutter_unimp/Proximity (= 0.0.3)
+    - flutter_unimp/Sqlite (= 0.0.3)
+    - flutter_unimp/Statistic (= 0.0.3)
+    - flutter_unimp/Statistic-Umeng (= 0.0.3)
+    - flutter_unimp/Video (= 0.0.3)
+    - flutter_unimp/XMLHttpRequest (= 0.0.3)
+    - flutter_unimp/Zip (= 0.0.3)
+  - flutter_unimp/Accelerometer (0.0.3):
+    - Flutter
+  - flutter_unimp/Audio (0.0.3):
+    - Flutter
+  - flutter_unimp/Barcode (0.0.3):
+    - Flutter
+  - flutter_unimp/BlueTooth (0.0.3):
+    - Flutter
+  - "flutter_unimp/Camera&Gallery (0.0.3)":
+    - Flutter
+  - flutter_unimp/Canvas (0.0.3):
+    - Flutter
+  - flutter_unimp/Contacts (0.0.3):
+    - Flutter
+  - flutter_unimp/Core (0.0.3):
+    - Flutter
+  - flutter_unimp/FaceId (0.0.3):
+    - Flutter
+  - flutter_unimp/File (0.0.3):
+    - Flutter
+  - flutter_unimp/Fingerprint (0.0.3):
+    - Flutter
+  - flutter_unimp/Geolocation (0.0.3):
+    - Flutter
+  - flutter_unimp/Geolocation-Gaode (0.0.3):
+    - AMapLocation (= 2.10.0)
+    - AMapSearch (= 9.7.0)
+    - Flutter
+    - flutter_unimp/Geolocation
+  - flutter_unimp/IBeacon (0.0.3):
+    - Flutter
+  - flutter_unimp/LivePusher (0.0.3):
+    - Flutter
+  - flutter_unimp/Log (0.0.3):
+    - Flutter
+  - flutter_unimp/Map (0.0.3):
+    - Flutter
+  - flutter_unimp/Map-Gaode (0.0.3):
+    - AMap3DMap (= 9.7.0)
+    - Flutter
+    - flutter_unimp/Map
+    - flutter_unimp/Masonry
+  - flutter_unimp/Masonry (0.0.3):
+    - Flutter
+  - flutter_unimp/Message (0.0.3):
+    - Flutter
+  - flutter_unimp/NativeJS (0.0.3):
+    - Flutter
+  - flutter_unimp/Orientation (0.0.3):
+    - Flutter
+  - flutter_unimp/Proximity (0.0.3):
+    - Flutter
+  - flutter_unimp/Sqlite (0.0.3):
+    - Flutter
+  - flutter_unimp/Statistic (0.0.3):
+    - Flutter
+  - flutter_unimp/Statistic-Umeng (0.0.3):
+    - Flutter
+    - flutter_unimp/Statistic
+    - UMAPM (= 1.8.4)
+    - UMCommon (= 7.4.2)
+  - flutter_unimp/Video (0.0.3):
+    - Flutter
+    - flutter_unimp/Masonry
+  - flutter_unimp/XMLHttpRequest (0.0.3):
+    - Flutter
+  - flutter_unimp/Zip (0.0.3):
+    - Flutter
+  - integration_test (0.0.1):
+    - Flutter
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - UMAPM (1.8.4)
+  - UMCommon (7.4.2):
+    - UMDevice
+  - UMDevice (3.4.0)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_unimp (from `.symlinks/plugins/flutter_unimp/ios`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - AMap3DMap
+    - AMapFoundation
+    - AMapLocation
+    - AMapSearch
+    - UMAPM
+    - UMCommon
+    - UMDevice
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_unimp:
+    :path: ".symlinks/plugins/flutter_unimp/ios"
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+
+SPEC CHECKSUMS:
+  AMap3DMap: dce25dd3e51e6b92109caa7d0c97fc6055830fb3
+  AMapFoundation: 9885c48fc3a78fdfb84a0299a2293e56ea3c9fec
+  AMapLocation: 5248aec2455ebb5d104b367813c946430a2ee033
+  AMapSearch: 1f24a4acee521d993a8190348d27f5765841e32a
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  flutter_unimp: 364334ac1b3024a6ce1e72e104592a8d2c1d10a7
+  integration_test: ce0a3ffa1de96d1a89ca0ac26fca7ea18a749ef4
+  path_provider_foundation: 2b6b4c569c0fb62ec74538f866245ac84301af46
+  UMAPM: f3d56b9a9c445af10a74f0cdbf5417045d2ab4f2
+  UMCommon: 35b28c82a3a3be892f895628261edce11b6a9e3e
+  UMDevice: dcdf7ec167387837559d149fbc7d793d984faf82
+
+PODFILE CHECKSUM: 50093964d14ea30a236131229deea9f30dffcefa
+
+COCOAPODS: 1.15.2
