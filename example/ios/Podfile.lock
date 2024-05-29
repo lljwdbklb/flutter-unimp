@@ -7,104 +7,104 @@ PODS:
   - AMapSearch (9.7.0):
     - AMapFoundation (>= 1.8.0)
   - Flutter (1.0.0)
-  - flutter_unimp (0.0.3):
+  - flutter_unimp (0.0.4):
     - Flutter
-    - flutter_unimp/Accelerometer (= 0.0.3)
-    - flutter_unimp/Audio (= 0.0.3)
-    - flutter_unimp/Barcode (= 0.0.3)
-    - flutter_unimp/BlueTooth (= 0.0.3)
-    - "flutter_unimp/Camera&Gallery (= 0.0.3)"
-    - flutter_unimp/Canvas (= 0.0.3)
-    - flutter_unimp/Contacts (= 0.0.3)
-    - flutter_unimp/Core (= 0.0.3)
-    - flutter_unimp/FaceId (= 0.0.3)
-    - flutter_unimp/File (= 0.0.3)
-    - flutter_unimp/Fingerprint (= 0.0.3)
-    - flutter_unimp/Geolocation (= 0.0.3)
-    - flutter_unimp/Geolocation-Gaode (= 0.0.3)
-    - flutter_unimp/IBeacon (= 0.0.3)
-    - flutter_unimp/LivePusher (= 0.0.3)
-    - flutter_unimp/Log (= 0.0.3)
-    - flutter_unimp/Map (= 0.0.3)
-    - flutter_unimp/Map-Gaode (= 0.0.3)
-    - flutter_unimp/Masonry (= 0.0.3)
-    - flutter_unimp/Message (= 0.0.3)
-    - flutter_unimp/NativeJS (= 0.0.3)
-    - flutter_unimp/Orientation (= 0.0.3)
-    - flutter_unimp/Proximity (= 0.0.3)
-    - flutter_unimp/Sqlite (= 0.0.3)
-    - flutter_unimp/Statistic (= 0.0.3)
-    - flutter_unimp/Statistic-Umeng (= 0.0.3)
-    - flutter_unimp/Video (= 0.0.3)
-    - flutter_unimp/XMLHttpRequest (= 0.0.3)
-    - flutter_unimp/Zip (= 0.0.3)
-  - flutter_unimp/Accelerometer (0.0.3):
+    - flutter_unimp/Accelerometer (= 0.0.4)
+    - flutter_unimp/Audio (= 0.0.4)
+    - flutter_unimp/Barcode (= 0.0.4)
+    - flutter_unimp/BlueTooth (= 0.0.4)
+    - "flutter_unimp/Camera&Gallery (= 0.0.4)"
+    - flutter_unimp/Canvas (= 0.0.4)
+    - flutter_unimp/Contacts (= 0.0.4)
+    - flutter_unimp/Core (= 0.0.4)
+    - flutter_unimp/FaceId (= 0.0.4)
+    - flutter_unimp/File (= 0.0.4)
+    - flutter_unimp/Fingerprint (= 0.0.4)
+    - flutter_unimp/Geolocation (= 0.0.4)
+    - flutter_unimp/Geolocation-Gaode (= 0.0.4)
+    - flutter_unimp/IBeacon (= 0.0.4)
+    - flutter_unimp/LivePusher (= 0.0.4)
+    - flutter_unimp/Log (= 0.0.4)
+    - flutter_unimp/Map (= 0.0.4)
+    - flutter_unimp/Map-Gaode (= 0.0.4)
+    - flutter_unimp/Masonry (= 0.0.4)
+    - flutter_unimp/Message (= 0.0.4)
+    - flutter_unimp/NativeJS (= 0.0.4)
+    - flutter_unimp/Orientation (= 0.0.4)
+    - flutter_unimp/Proximity (= 0.0.4)
+    - flutter_unimp/Sqlite (= 0.0.4)
+    - flutter_unimp/Statistic (= 0.0.4)
+    - flutter_unimp/Statistic-Umeng (= 0.0.4)
+    - flutter_unimp/Video (= 0.0.4)
+    - flutter_unimp/XMLHttpRequest (= 0.0.4)
+    - flutter_unimp/Zip (= 0.0.4)
+  - flutter_unimp/Accelerometer (0.0.4):
     - Flutter
-  - flutter_unimp/Audio (0.0.3):
+  - flutter_unimp/Audio (0.0.4):
     - Flutter
-  - flutter_unimp/Barcode (0.0.3):
+  - flutter_unimp/Barcode (0.0.4):
     - Flutter
-  - flutter_unimp/BlueTooth (0.0.3):
+  - flutter_unimp/BlueTooth (0.0.4):
     - Flutter
-  - "flutter_unimp/Camera&Gallery (0.0.3)":
+  - "flutter_unimp/Camera&Gallery (0.0.4)":
     - Flutter
-  - flutter_unimp/Canvas (0.0.3):
+  - flutter_unimp/Canvas (0.0.4):
     - Flutter
-  - flutter_unimp/Contacts (0.0.3):
+  - flutter_unimp/Contacts (0.0.4):
     - Flutter
-  - flutter_unimp/Core (0.0.3):
+  - flutter_unimp/Core (0.0.4):
     - Flutter
-  - flutter_unimp/FaceId (0.0.3):
+  - flutter_unimp/FaceId (0.0.4):
     - Flutter
-  - flutter_unimp/File (0.0.3):
+  - flutter_unimp/File (0.0.4):
     - Flutter
-  - flutter_unimp/Fingerprint (0.0.3):
+  - flutter_unimp/Fingerprint (0.0.4):
     - Flutter
-  - flutter_unimp/Geolocation (0.0.3):
+  - flutter_unimp/Geolocation (0.0.4):
     - Flutter
-  - flutter_unimp/Geolocation-Gaode (0.0.3):
+  - flutter_unimp/Geolocation-Gaode (0.0.4):
     - AMapLocation (= 2.10.0)
     - AMapSearch (= 9.7.0)
     - Flutter
     - flutter_unimp/Geolocation
-  - flutter_unimp/IBeacon (0.0.3):
+  - flutter_unimp/IBeacon (0.0.4):
     - Flutter
-  - flutter_unimp/LivePusher (0.0.3):
+  - flutter_unimp/LivePusher (0.0.4):
     - Flutter
-  - flutter_unimp/Log (0.0.3):
+  - flutter_unimp/Log (0.0.4):
     - Flutter
-  - flutter_unimp/Map (0.0.3):
+  - flutter_unimp/Map (0.0.4):
     - Flutter
-  - flutter_unimp/Map-Gaode (0.0.3):
+  - flutter_unimp/Map-Gaode (0.0.4):
     - AMap3DMap (= 9.7.0)
     - Flutter
     - flutter_unimp/Map
     - flutter_unimp/Masonry
-  - flutter_unimp/Masonry (0.0.3):
+  - flutter_unimp/Masonry (0.0.4):
     - Flutter
-  - flutter_unimp/Message (0.0.3):
+  - flutter_unimp/Message (0.0.4):
     - Flutter
-  - flutter_unimp/NativeJS (0.0.3):
+  - flutter_unimp/NativeJS (0.0.4):
     - Flutter
-  - flutter_unimp/Orientation (0.0.3):
+  - flutter_unimp/Orientation (0.0.4):
     - Flutter
-  - flutter_unimp/Proximity (0.0.3):
+  - flutter_unimp/Proximity (0.0.4):
     - Flutter
-  - flutter_unimp/Sqlite (0.0.3):
+  - flutter_unimp/Sqlite (0.0.4):
     - Flutter
-  - flutter_unimp/Statistic (0.0.3):
+  - flutter_unimp/Statistic (0.0.4):
     - Flutter
-  - flutter_unimp/Statistic-Umeng (0.0.3):
+  - flutter_unimp/Statistic-Umeng (0.0.4):
     - Flutter
     - flutter_unimp/Statistic
     - UMAPM (= 1.8.4)
     - UMCommon (= 7.4.2)
-  - flutter_unimp/Video (0.0.3):
+  - flutter_unimp/Video (0.0.4):
     - Flutter
     - flutter_unimp/Masonry
-  - flutter_unimp/XMLHttpRequest (0.0.3):
+  - flutter_unimp/XMLHttpRequest (0.0.4):
     - Flutter
-  - flutter_unimp/Zip (0.0.3):
+  - flutter_unimp/Zip (0.0.4):
     - Flutter
   - integration_test (0.0.1):
     - Flutter
@@ -148,7 +148,7 @@ SPEC CHECKSUMS:
   AMapLocation: 5248aec2455ebb5d104b367813c946430a2ee033
   AMapSearch: 1f24a4acee521d993a8190348d27f5765841e32a
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
-  flutter_unimp: 364334ac1b3024a6ce1e72e104592a8d2c1d10a7
+  flutter_unimp: e66b25d151c2c678805a157b7ec3f37884958b5f
   integration_test: ce0a3ffa1de96d1a89ca0ac26fca7ea18a749ef4
   path_provider_foundation: 2b6b4c569c0fb62ec74538f866245ac84301af46
   UMAPM: f3d56b9a9c445af10a74f0cdbf5417045d2ab4f2
