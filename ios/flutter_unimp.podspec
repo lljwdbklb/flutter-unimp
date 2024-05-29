@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'flutter_unimp'
-  s.version          = '0.0.3'
+  s.version          = '0.0.1'
   s.summary          = 'A new Flutter plugin project.'
   s.description      = <<-DESC
 A new Flutter plugin project.
@@ -19,7 +19,7 @@ A new Flutter plugin project.
   # s.vendored_library = ['Libs/*.a', 'Features/Libs/*.a']
   # s.vendored_frameworks = ['Libs/*.framework', 'Features/Libs/*.{framework,xcframework}']
   s.platform = :ios, '12.0'
-  # s.static_framework = true
+  s.static_framework = true
 
   # s.frameworks = 'JavaScriptCore', 'CoreMedia', 'MediaPlayer', 'AVFoundation', 'AVKit', 'GLKit', 'OpenGLES', 'CoreText', 'QuartzCore', 'CoreGraphics', 'QuickLook', 'CoreTelephony', 'AddressBookUI', 'AddressBook', 'CoreVideo', 'AssetsLibrary', 'Photos', 'MetalKit', 'Accelerate', 'CoreLocation', 'MessageUI', 'ImageIO', 'MapKit', 'SystemConfiguration', 'Security', 'AudioToolbox', 'VideoToolbox', 'MobileCoreServices', 'LocalAuthentication', 'CoreBluetooth', 'CoreMotion', 'ExternalAccessory'
   # s.libraries = 'c++', 'iconv', 'z', 'sqlite3'
