@@ -38,7 +38,7 @@ bool isInstall = await _flutterUnimpPlugin.installUniMPResource(appId: appid, wg
 Map? versionInfo = await _flutterUnimpPlugin.getUniMPVersionInfo(appId: appid);
 
 /// 启动小程序
-_flutterUnimpPlugin.openUniMP(appId: appid, arguments: { "launchInfo": "Hello UniMP" });
+Map? _flutterUnimpPlugin.openUniMP(appId: appid, arguments: { "launchInfo": "Hello UniMP" });
 
 /// 关闭当前显示的小程序应用
 _flutterUnimpPlugin.closeUniMP();
