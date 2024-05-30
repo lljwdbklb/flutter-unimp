@@ -46,6 +46,11 @@ _flutterUnimpPlugin.closeUniMP();
 /// 向当前打开的小程序发送事件
 _flutterUnimpPlugin.sendUniMPEvent(event: 'event', data: {"launchInfo": "Hello UniMP"});
 
+/// 小程序向原生发送消息的监听器
+_flutterUnimpPlugin.registerListener((call) aync {
+    return Future(() => {"data":"回调给小程序"})
+})
+
 ```
 
 ## 功能模块支持
