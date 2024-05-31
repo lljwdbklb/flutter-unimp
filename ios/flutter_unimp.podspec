@@ -126,7 +126,7 @@ A new Flutter plugin project.
     ss.frameworks = 'AVFoundation','QuartzCore',
     'OpenGLES','AudioToolbox','VideoToolbox',
     'Accelerate','CoreMedia','CoreTelephony',
-    'SystemConfiguration','CoreMotion', 'CoreAudioTypes'
+    'SystemConfiguration','CoreMotion', 'CoreAudio'
     ss.vendored_library = 'Features/LivePusher/Libs/*.{a}'
     ss.vendored_frameworks = 'Features/LivePusher/Libs/*.{framework}'
   end
