@@ -1,7 +1,7 @@
 name: flutter_unimp
-description: "A new Flutter plugin project."
+description: "提供UNI小程序能力的组件"
 version: 0.0.1
-homepage:
+homepage: https://github.com/lljwdbklb/flutter-unimp
 
 environment:
   sdk: '>=3.4.0 <4.0.0'
