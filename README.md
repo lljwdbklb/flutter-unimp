@@ -54,8 +54,9 @@ _flutterUnimpPlugin.registerListener((call) aync {
 ```
 
 ## 功能模块支持
+
 | 模块名                           | 5+APP项目                   | Uni API                           | 是否支持 |
-|----------------------------------|:----------------------------|:----------------------------------|----------|
+| -------------------------------- | :-------------------------- | :-------------------------------- | -------- |
 | Camera(摄像头)/Gallery(图片选择) | plus.camera                 | image                             | 是       |
 | Accelerometer(加速度传感器)      | plus.accelerometer          | Accelerometer                     | 是       |
 | Audio(音频)                      | plus.audio                  | record-manager<br />audio-context | 是       |
@@ -69,22 +70,24 @@ _flutterUnimpPlugin.registerListener((call) aync {
 | XMLHttpRequest(网络请求)         | plus.net                    | request                           | 是       |
 | zip(解压缩)                      | plus.zip                    |                                   | 是       |
 | Barcode(扫码)                    | plus.barcode                | barcode                           | 是       |
-| Maps（高德地图）                   | plus.maps                   | map                               | 是       |
-| Payment（支付）                    | plus.payment                | payment                           | 否       |
+| Maps（高德地图）                 | plus.maps                   | map                               | 是       |
+| Payment（支付）                  | plus.payment                | payment                           | 否       |
 | Share(分享)                      | plus.share                  | share                             | 否       |
 | Speech(语音识别)                 | plus.speech                 | voice                             | 否       |
 | Statistic(友盟统计)              | plus.statistic              |                                   | 是       |
-| Oauth（授权登陆）                  | plus.oauth                  | login                             | 否       |
-| Video（视频播放）                  | plus.video                  | video                             | 是       |
+| Oauth（授权登陆）                | plus.oauth                  | login                             | 否       |
+| Video（视频播放）                | plus.video                  | video                             | 是       |
 | fingerprint(指纹识别)            | plus.fingerprint            | authentication                    | 是       |
-| faceId（人脸识别）                 |                             | authentication                    | 是       |
+| faceId（人脸识别）               |                             | authentication                    | 是       |
 | BlueTooth(蓝牙)                  | plus.bluetooth              | bluetooth                         | 是       |
-| sqlite（数据库）                   | plus.sqlite                 |                                   | 是       |
+| sqlite（数据库）                 | plus.sqlite                 |                                   | 是       |
 | livepusher(直播推流)             | plus.video.createLivePusher | createliveplayercontext           | 是       |
 | iBeacon                          | plus.ibeacon                | ibeacon                           | 是       |
 
 ### iOS权限设置
+
 在info.plist中添加以下权限，描述根据自己情况自行修改:
+
 ```plist
 <key>NSCameraUsageDescription</key>
 <string>使用相机</string>
@@ -119,3 +122,88 @@ _flutterUnimpPlugin.registerListener((call) aync {
 
 ### Android权限设置
 
+```
+    <!-- Barcode(二维码)  begin -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <!-- Barcode(二维码)  end -->
+
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+
+    <!-- Maps(地图) begin -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <!-- Maps(地图) end -->
+
+
+    <!-- Share(分享)  begin -->
+    <!-- Share - 新浪微博分享 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- Share - 微信分享 -->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+
+    <!-- Speech(语音识别)  begin -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- Speech(语音识别)  end -->
+
+
+    <!-- Statistic(统计)  begin -->
+    <!-- Statistic - 友盟统计 -->
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <!-- Statistic(统计)  end -->
+
+    <!-- 蓝牙 ibeacon权限-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <!-- 基座删除的部分权限 -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE" />
+```

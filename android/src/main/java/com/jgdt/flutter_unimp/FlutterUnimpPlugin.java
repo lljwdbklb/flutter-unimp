@@ -112,7 +112,7 @@ public class FlutterUnimpPlugin implements FlutterPlugin, MethodCallHandler {
           }
         }
       });
-      result.success("Android " + android.os.Build.VERSION.RELEASE);
+      // result.success("Android " + android.os.Build.VERSION.RELEASE);
     } else if (call.method.equals("openUniMP")) {
 //      String path = call.argument("path");
       String appId = call.argument("appId");
@@ -130,17 +130,19 @@ public class FlutterUnimpPlugin implements FlutterPlugin, MethodCallHandler {
 
       // uniMPOpenConfiguration.path = path;
       // uniMPOpenConfiguration.redirectPath = "pages/index/index";
-Map<String,String> re = new HashMap<>();
+        Map<String,String> re = new HashMap<>();
+
         try {
             uniMP = DCUniMPSDK.getInstance().openUniMP(context,appId, uniMPOpenConfiguration);
         } catch (Exception e) {
           re.put("errCode","-1");
           re.put("errMsg",e.getMessage());
-          result.success(re);
+//          result.success(re);
         }
       re.put("errCode","0");
       re.put("errMsg","");
-      result.success(re);
+        JSONObject obj = new JSONObject(re);
+        result.success(JSON.parseObject(obj.toString(), new TypeReference<Map<String, String>>(){}));
     } else if (call.method.equals("closeUniMP")) {
 //      String appid = call.argument("appid");
 //      IUniMP uniMP = mUniMPCaches.get(appid);
