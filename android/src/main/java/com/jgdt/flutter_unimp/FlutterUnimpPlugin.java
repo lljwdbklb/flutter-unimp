@@ -59,13 +59,13 @@ public class FlutterUnimpPlugin implements FlutterPlugin, MethodCallHandler {
     // sheetItems.add(item2);
     Log.i("unimp","onCreate----");
     DCSDKInitConfig config = new DCSDKInitConfig.Builder()
-            .setCapsule(false)
+            .setCapsule(true)
             .setMenuDefFontSize("16px")
             .setMenuDefFontColor("#ff00ff")
             .setMenuDefFontWeight("normal")
             .setMenuActionSheetItems(sheetItems)
             .setEnableBackground(false)//开启后台运行
-            .setUniMPFromRecents(false)
+            // .setUniMPFromRecents(false)
             .build();
     DCUniMPSDK.getInstance().initialize(context, config, new IDCUniMPPreInitCallback() {
         @Override
