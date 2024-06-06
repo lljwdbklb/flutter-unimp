@@ -207,3 +207,7 @@ _flutterUnimpPlugin.registerListener((call) aync {
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE" />
 ```
+
+## 代码贡献
+[Hyde Huang](https://github.com/szhyde)
+[WhoJun](https://github.com/lljwdbklb)
