@@ -61,11 +61,9 @@ public class FlutterUnimpPlugin implements FlutterPlugin, MethodCallHandler {
     DCSDKInitConfig config = new DCSDKInitConfig.Builder()
             .setCapsule(true)
             .setMenuDefFontSize("16px")
-            // .setMenuDefFontColor("#ff00ff")
             .setMenuDefFontWeight("normal")
             .setMenuActionSheetItems(sheetItems)
             .setEnableBackground(false)//开启后台运行
-            // .setUniMPFromRecents(false)
             .build();
     DCUniMPSDK.getInstance().initialize(context, config, new IDCUniMPPreInitCallback() {
         @Override
