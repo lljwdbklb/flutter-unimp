@@ -149,14 +149,15 @@ public class FlutterUnimpPlugin implements FlutterPlugin, MethodCallHandler {
     if(uniMP!=null){
       uniMP.closeUniMP();
     }
-      result.success("关闭小程序成功 ");
+      // result.success("关闭小程序成功 ");
+      result.notImplemented();
     } else if (call.method.equals("sendUniMPEvent")) {
       String event = call.argument("event");
       HashMap<String,Object> data = call.argument("data");
       if(uniMP!=null){
         uniMP.sendUniMPEvent(event,data);
       }
-      result.success("Android " + android.os.Build.VERSION.RELEASE);
+      result.notImplemented();
     } else {
       result.notImplemented();
     }
