@@ -122,14 +122,14 @@ A new Flutter plugin project.
     ss.vendored_library = 'Features/BlueTooth/Libs/*.{a}'
   end
 
-  s.subspec 'LivePusher' do |ss|
-    ss.frameworks = 'AVFoundation','QuartzCore',
-    'OpenGLES','AudioToolbox','VideoToolbox',
-    'Accelerate','CoreMedia','CoreTelephony',
-    'SystemConfiguration','CoreMotion', 'CoreAudio'
-    ss.vendored_library = 'Features/LivePusher/Libs/*.{a}'
-    ss.vendored_frameworks = 'Features/LivePusher/Libs/*.{framework}'
-  end
+  # s.subspec 'LivePusher' do |ss|
+  #   ss.frameworks = 'AVFoundation','QuartzCore',
+  #   'OpenGLES','AudioToolbox','VideoToolbox',
+  #   'Accelerate','CoreMedia','CoreTelephony',
+  #   'SystemConfiguration','CoreMotion', 'CoreAudio'
+  #   ss.vendored_library = 'Features/LivePusher/Libs/*.{a}'
+  #   ss.vendored_frameworks = 'Features/LivePusher/Libs/*.{framework}'
+  # end
 
   s.subspec 'Barcode' do |ss|
     ss.public_header_files = 'Features/Barcode/Headers/**/*{.h,.swift}'
